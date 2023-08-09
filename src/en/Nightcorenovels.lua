@@ -7,10 +7,10 @@ return Require("Madara")("https://nightcorenovels.com", {
 	latestNovelSel = "div.col-12.col-md-6.badge-pos-2",
 	--searchNovelSel = "div.page-item-detail.text",
 	novelListingURLPath = "",
-	hasSearch = false,
-	--ajaxUsesFormData = true,
+	-- hasSearch = false,
+	-- ajaxUsesFormData = true,
+	chaptersListSelector= "wp-manga-chapter",
 	genres = {}
 
 })
-
 
